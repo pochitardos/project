@@ -1,0 +1,703 @@
+[15Dec2025 16:04:18.988] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[15Dec2025 16:04:18.992] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[15Dec2025 16:04:24.997] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[15Dec2025 16:04:25.145] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/project/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[15Dec2025 16:04:25.761] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/project/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[15Dec2025 16:04:25.762] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/project/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[15Dec2025 16:04:25.763] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/project/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[15Dec2025 16:04:25.764] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/project/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[15Dec2025 16:04:26.147] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[15Dec2025 16:04:29.201] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[15Dec2025 16:04:29.403] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[15Dec2025 16:04:29.405] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[15Dec2025 16:04:29.421] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[15Dec2025 16:04:29.632] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.25.1+mc1.20.1: 98 options available, 1 override(s) found
+[15Dec2025 16:04:29.633] [main/WARN] [ModernFix/]: Option 'mixin.perf.smart_ingredient_sync' overriden (by mods [crafttweaker]) to 'false'
+[15Dec2025 16:04:29.634] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[15Dec2025 16:04:29.660] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[15Dec2025 16:04:29.851] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[15Dec2025 16:04:29.873] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 102 options available, 0 override(s) found
+[15Dec2025 16:04:29.888] [main/WARN] [mixin/]: Reference map 'tbsfbsp.refmap.json' for tbsfbsp.mixin.json could not be read. If this is a development environment you can ignore this message
+[15Dec2025 16:04:29.988] [main/INFO] [Puzzles Lib/]: Loading 57 mods:
+	- alexsmobs 1.22.9
+	- architectury 9.2.14
+	- balm 7.3.37
+		\-- kuma_api 20.1.12
+	- beautifiedchatserver 2.7
+	- betterpingdisplay 1.1
+	- born_in_chaos_v1 1.7.3
+	- borninconfiguration 3.1.2
+		\-- mixinextras 0.5.0-beta.5
+	- charmofundying 6.5.0+1.20.1
+		\-- spectrelib 0.13.15+1.20.1
+	- chunky 1.3.146
+	- citadel 2.6.2
+	- clumps 12.0.0.4
+	- collective 8.13
+	- crafttweaker 14.0.59
+	- creativecore 2.12.32
+	- curios 5.14.1+1.20.1
+	- embeddium 0.3.31+mc1.20.1
+		\-- rubidium 0.7.1
+	- ferritecore 6.0.1
+	- forge 47.3.7
+	- fossil 9.3.0.2
+	- geckolib 4.8.2
+	- graveyard 3.1
+	- interaction_boxes 0.693
+	- jade 11.13.2+forge
+	- jei 15.20.0.112
+	- kotlinforforge 4.11.0
+	- mantle 1.11.79
+	- minecraft 1.20.1
+	- moblassos 8.0.1
+	- modernfix 5.25.1+mc1.20.1
+	- morehitboxes 1.9.2
+	- mousetweaks 2.25.1
+	- observable 4.4.1
+	- onlyhammersandexcavators 1.20.1-0.3
+	- pickupnotifier 8.0.0
+	- playerrevive 2.0.31
+	- puzzleslib 8.1.33
+		\-- puzzlesaccessapi 20.1.1
+	- reap 1.20.1-1.0.2
+	- securitycraft 1.10.1
+	- spark 1.10.53
+	- tbsfbsp 0.74
+	- tconstruct 3.10.2.92
+	- terrablender 3.0.1.10
+	- tlskincape 1.38
+	- tombstone 9.0.9
+	- travelersbackpack 9.1.46
+	- treechop 0.19.0
+	- twilightforest 4.3.2508
+	- uniquedungeons 0.70.5
+	- uppers 1.0.1
+	- watching 1.9.2
+	- waystones 14.1.17
+	- xaerominimap 25.2.10
+	- xaeroworldmap 1.39.12
+[15Dec2025 16:04:29.997] [main/WARN] [mixin/]: Reference map 'moblassos.refmap.json' for moblassos.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[15Dec2025 16:04:31.571] [main/WARN] [mixin/]: Error loading class: tschipp/carryon/common/carry/PickupHandler (java.lang.ClassNotFoundException: tschipp.carryon.common.carry.PickupHandler)
+[15Dec2025 16:04:31.572] [main/WARN] [mixin/]: @Mixin target tschipp.carryon.common.carry.PickupHandler was not found fossil_forge.mixins.json:PickupHandlerMixin
+[15Dec2025 16:04:31.762] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[15Dec2025 16:04:31.762] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[15Dec2025 16:04:31.762] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[15Dec2025 16:04:31.764] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[15Dec2025 16:04:31.765] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[15Dec2025 16:04:31.765] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[15Dec2025 16:04:31.766] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[15Dec2025 16:04:31.766] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[15Dec2025 16:04:32.122] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-beta.5).
+[15Dec2025 16:04:33.035] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (21.25 s after launch)
+[15Dec2025 16:04:33.450] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[15Dec2025 16:04:33.451] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[15Dec2025 16:04:35.309] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2270 milliseconds
+[15Dec2025 16:04:38.526] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[15Dec2025 16:04:39.224] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[15Dec2025 16:04:39.254] [modloading-worker-0/INFO] [STDOUT/]: [com.tiviacz.travelersbackpack.TravelersBackpack:readOldCommonConfig:180]: curiosIntegration not found in the [common.backpackSettings] section.
+[15Dec2025 16:04:39.278] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for pickupnotifier:main
+[15Dec2025 16:04:39.343] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[15Dec2025 16:04:39.343] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[15Dec2025 16:04:40.180] [modloading-worker-0/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Disabled because not running on the client.
+[15Dec2025 16:04:40.930] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.13.
+[15Dec2025 16:04:41.154] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[15Dec2025 16:04:41.180] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[15Dec2025 16:04:41.207] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[15Dec2025 16:04:41.296] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.BetterChannel$PartialPacketBegin
+[15Dec2025 16:04:41.340] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/61a49a35c5283c0aaa7b0dfea5b7a53a
+[15Dec2025 16:04:41.341] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.BetterChannel$PartialPacketBegin
+[15Dec2025 16:04:41.342] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.BetterChannel$PartialPacketData
+[15Dec2025 16:04:41.355] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/3dd73fd88be832559bc3a3c4a2e63b4a
+[15Dec2025 16:04:41.356] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.BetterChannel$PartialPacketData
+[15Dec2025 16:04:41.362] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.C2SPacket$InitTPSProfile
+[15Dec2025 16:04:41.368] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/b453c08f23b83b82b690c31bf8b2a45a
+[15Dec2025 16:04:41.371] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.C2SPacket$InitTPSProfile
+[15Dec2025 16:04:41.372] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.C2SPacket$RequestAvailability
+[15Dec2025 16:04:41.378] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/0c662822629034678f5a8f0e70375315
+[15Dec2025 16:04:41.379] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.C2SPacket$RequestAvailability
+[15Dec2025 16:04:41.382] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.S2CPacket$ProfilingStarted
+[15Dec2025 16:04:41.390] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/2e815604a29b3a5cbfe0208e619d86c4
+[15Dec2025 16:04:41.391] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.S2CPacket$ProfilingStarted
+[15Dec2025 16:04:41.391] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.S2CPacket$ProfilingCompleted
+[15Dec2025 16:04:41.396] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/9ae83199b65a3768862799cc5e461a02
+[15Dec2025 16:04:41.397] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.S2CPacket$ProfilingCompleted
+[15Dec2025 16:04:41.398] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.S2CPacket$ProfilerInactive
+[15Dec2025 16:04:41.408] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/ae8dfae1238e312397aa53e9d14c45ca
+[15Dec2025 16:04:41.408] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.S2CPacket$ProfilerInactive
+[15Dec2025 16:04:41.409] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.S2CPacket$ProfilingResult
+[15Dec2025 16:04:41.416] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/3a94cae7336038df9152bcb7b4b94825
+[15Dec2025 16:04:41.417] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.S2CPacket$ProfilingResult
+[15Dec2025 16:04:41.418] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.S2CPacket$Availability
+[15Dec2025 16:04:41.425] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/c86a824e756d312396d1ba30e943e6aa
+[15Dec2025 16:04:41.427] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.S2CPacket$Availability
+[15Dec2025 16:04:41.432] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for moblassos:main
+[15Dec2025 16:04:41.605] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:cap_channel/537e4f78f24b30e4bee5892e8d9314fa
+[15Dec2025 16:04:41.606] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/f7d73d83d6fa3fb99fb754f57f7238af
+[15Dec2025 16:04:41.607] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/5ecf814711a7357f8ebd58d771f05139
+[15Dec2025 16:04:41.608] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/2ae61e410df635b2b2c2d4eaa7b7afcb
+[15Dec2025 16:04:41.610] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/600dc9ad56393757ae8315ba075af416
+[15Dec2025 16:04:41.611] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/ec18fa987d5331379c9156102188220c
+[15Dec2025 16:04:41.612] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/b0228010ee3d3689beb49186e8009925
+[15Dec2025 16:04:41.613] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/ed688e568fc63151a34c0f912fce9d27
+[15Dec2025 16:04:41.614] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/8aaf614d5e2d39dd9e136e8c430145a9
+[15Dec2025 16:04:41.615] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/08e9f40b177134efbc5eb99e2ad6bcb5
+[15Dec2025 16:04:41.616] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id fossil:sync_channel/531d15ea7fd13018964a31b3ccac540a
+[15Dec2025 16:04:42.652] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@4a9f02f4 has been registered twice for the same name treechop:chop_wood.
+[15Dec2025 16:04:43.952] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[15Dec2025 16:04:43.953] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[15Dec2025 16:04:45.155] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[15Dec2025 16:04:45.793] [modloading-worker-0/INFO] [com.becks.uniquedungeons.UniqueDungeons/]: HELLO FROM COMMON SETUP
+[15Dec2025 16:04:45.794] [modloading-worker-0/INFO] [com.becks.uniquedungeons.UniqueDungeons/]: DIRT BLOCK >> minecraft:dirt
+[15Dec2025 16:04:45.825] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Starting version check at https://maxhenkel.de/update/reap.json
+[15Dec2025 16:04:45.853] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
+[15Dec2025 16:04:46.307] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[15Dec2025 16:04:46.308] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[15Dec2025 16:04:46.308] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[15Dec2025 16:04:46.308] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[15Dec2025 16:04:46.356] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[15Dec2025 16:04:46.357] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[15Dec2025 16:04:46.357] [main/INFO] [terrablender/]: Registered region fossil:overworld to index 1 for type OVERWORLD
+[15Dec2025 16:04:46.467] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[15Dec2025 16:04:46.468] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[15Dec2025 16:04:46.493] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[15Dec2025 16:04:46.494] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[15Dec2025 16:04:46.754] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Found status: UP_TO_DATE Current: 1.20.1-1.0.2 Target: null
+[15Dec2025 16:04:46.755] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[15Dec2025 16:04:46.825] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ht.treechop.compat.Jade
+[15Dec2025 16:04:46.834] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[15Dec2025 16:04:46.834] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[15Dec2025 16:04:46.834] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[15Dec2025 16:04:46.835] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[15Dec2025 16:04:46.846] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[15Dec2025 16:04:46.850] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[15Dec2025 16:04:46.852] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[15Dec2025 16:04:46.853] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[15Dec2025 16:04:46.854] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.github.teamfossilsarcheology.fossil.forge.compat.jade.FossilJadePluginForge
+[15Dec2025 16:04:46.877] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[15Dec2025 16:04:46.878] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[15Dec2025 16:04:46.879] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
+[15Dec2025 16:04:47.078] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[15Dec2025 16:04:47.078] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[15Dec2025 16:04:47.117] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.46 Target: null
+[15Dec2025 16:04:47.118] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pickupnotifier] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/pickupnotifier.json
+[15Dec2025 16:04:47.147] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pickupnotifier] Found status: UP_TO_DATE Current: 8.0.0 Target: null
+[15Dec2025 16:04:47.147] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker&gv=1.20.1
+[15Dec2025 16:04:47.251] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crafttweaker] Found status: BETA Current: 14.0.59 Target: 14.0.59
+[15Dec2025 16:04:47.254] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[15Dec2025 16:04:47.265] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[15Dec2025 16:04:47.265] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[15Dec2025 16:04:47.363] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[15Dec2025 16:04:47.364] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[15Dec2025 16:04:47.462] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
+[15Dec2025 16:04:47.462] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[15Dec2025 16:04:47.562] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.1 Target: null
+[15Dec2025 16:04:47.563] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[15Dec2025 16:04:47.572] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 9.0.9 Target: null
+[15Dec2025 16:04:47.572] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[15Dec2025 16:04:47.582] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.33 Target: null
+[15Dec2025 16:04:47.582] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moblassos] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/moblassos.json
+[15Dec2025 16:04:47.592] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moblassos] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[15Dec2025 16:04:47.645] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15Dec2025 16:04:48.092] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/project/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23205!/assets/.mcassetsroot' uses unexpected schema
+[15Dec2025 16:04:48.092] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/project/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23205!/data/.mcassetsroot' uses unexpected schema
+[15Dec2025 16:04:50.512] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[15Dec2025 16:04:51.147] [Worker-Main-3/INFO] [Mantle/]: Loaded 20 loot table injectors injecting into 18 tables in 13.350804 ms
+[15Dec2025 16:04:51.469] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[1]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[15Dec2025 16:04:51.522] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[15Dec2025 16:04:51.529] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[15Dec2025 16:04:51.543] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe tconstruct:smeltery/alloys/molten_pewter as it's serializer returned null
+[15Dec2025 16:04:51.572] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[15Dec2025 16:04:51.585] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[15Dec2025 16:04:51.616] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[15Dec2025 16:04:51.638] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[15Dec2025 16:04:51.639] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[15Dec2025 16:04:51.643] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[15Dec2025 16:04:51.647] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
+[15Dec2025 16:04:51.648] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[15Dec2025 16:04:51.818] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3860 advancements
+[15Dec2025 16:04:51.829] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[15Dec2025 16:04:51.846] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 55 materials in 8.333511 ms
+[15Dec2025 16:04:51.849] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 9 material tags for 39 materials in 2.937929 ms
+[15Dec2025 16:04:51.858] [main/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 412 stats loaded for 69 materials in 8.125123 ms
+[15Dec2025 16:04:51.868] [main/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 229 traits loaded for 69 materials in 9.855469 ms
+[15Dec2025 16:04:51.919] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 154 dynamic modifiers and 4 modifier redirects in 51.302258 ms
+[15Dec2025 16:04:51.923] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 42 modifier tags for 141 modifiers in 3.51804 ms
+[15Dec2025 16:04:51.923] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 50 enchantment to modifier mappings in 0.598707 ms
+[15Dec2025 16:04:51.927] [main/INFO] [tconstruct/]: Loaded 43 spilling fluids in 3.249229 ms
+[15Dec2025 16:04:51.930] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[15Dec2025 16:04:51.933] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[15Dec2025 16:04:51.934] [main/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 25 dynamic modifiers in 1.341362 ms
+[15Dec2025 16:04:51.938] [main/INFO] [Fossils Archeology/]: Loaded 733 server animations for 66 entities
+[15Dec2025 16:04:51.951] [main/INFO] [Fossils Archeology/]: Loaded 1056 animation category entries for 66 entities
+[15Dec2025 16:04:51.957] [main/INFO] [Fossils Archeology/]: Loaded data for 59 entities
+[15Dec2025 16:04:51.959] [main/INFO] [Fossils Archeology/]: Loaded food values: (items: 51) (entities: 39, 39) (Tags: 8, 0)
+[15Dec2025 16:04:51.966] [main/INFO] [Fossils Archeology/]: Loaded 12 variants
+[15Dec2025 16:04:51.979] [main/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 38 tool definitions in 12.081363 ms
+[15Dec2025 16:04:51.984] [main/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 4.484754 ms
+[15Dec2025 16:04:52.519] [main/WARN] [ModernFix/]: Initial datapack load took 4.398 s
+[15Dec2025 16:04:52.838] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[15Dec2025 16:04:52.838] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[15Dec2025 16:04:52.839] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[15Dec2025 16:04:52.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[15Dec2025 16:04:52.900] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[15Dec2025 16:04:52.943] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[15Dec2025 16:04:53.023] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15Dec2025 16:04:53.024] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[15Dec2025 16:04:53.024] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15Dec2025 16:04:53.024] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[15Dec2025 16:04:53.050] [Server thread/INFO] [Puzzles Lib/]: Loading server config for pickupnotifier
+[15Dec2025 16:04:53.062] [Server thread/INFO] [Puzzles Lib/]: Loading server config for moblassos
+[15Dec2025 16:04:53.127] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[15Dec2025 16:04:53.323] [Server thread/INFO] [spark/]: Starting background profiler...
+[15Dec2025 16:04:54.393] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[15Dec2025 16:04:54.628] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[15Dec2025 16:04:54.628] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[15Dec2025 16:04:55.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[15Dec2025 16:04:56.674] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Dec2025 16:04:56.674] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Dec2025 16:04:56.675] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Dec2025 16:04:57.099] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Dec2025 16:04:57.568] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Dec2025 16:04:58.067] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Dec2025 16:04:58.535] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2969 ms
+[15Dec2025 16:04:58.536] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.501s)! For help, type "help"
+[15Dec2025 16:04:58.671] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[15Dec2025 16:04:58.674] [Server thread/INFO] [com.becks.uniquedungeons.UniqueDungeons/]: HELLO from server starting
+[15Dec2025 16:04:58.699] [Server thread/INFO] [Observable/]: Registered thread Server thread
+[15Dec2025 16:04:58.700] [Server thread/WARN] [ModernFix/]: Dedicated server took 46.914 seconds to load
+[15Dec2025 16:05:49.062] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: caslu[/127.73.223.127:60625] logged in with entity id 1058 at (-95.27726871338481, 71.0, -163.37832071884924)
+[15Dec2025 16:05:49.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: caslu joined the game
+[15Dec2025 16:05:49.440] [Server thread/INFO] [Jade/]: Syncing config to caslu (d68c8e9e-394d-37c6-9710-a218d4ba9113)
+[15Dec2025 16:06:07.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [caslu: Set own game mode to Creative Mode]
+[15Dec2025 16:13:43.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [caslu: Reloading!]
+[15Dec2025 16:13:43.309] [Server thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[15Dec2025 16:13:43.618] [Worker-ResourceReload-1/INFO] [Mantle/]: Loaded 20 loot table injectors injecting into 18 tables in 5.725909 ms
+[15Dec2025 16:13:43.999] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[1]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[15Dec2025 16:13:44.021] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[15Dec2025 16:13:44.025] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[15Dec2025 16:13:44.033] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe tconstruct:smeltery/alloys/molten_pewter as it's serializer returned null
+[15Dec2025 16:13:44.051] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[15Dec2025 16:13:44.062] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[15Dec2025 16:13:44.082] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[15Dec2025 16:13:44.102] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[15Dec2025 16:13:44.103] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[15Dec2025 16:13:44.105] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[15Dec2025 16:13:44.108] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
+[15Dec2025 16:13:44.109] [Server thread/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[15Dec2025 16:13:44.194] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3860 advancements
+[15Dec2025 16:13:44.197] [Server thread/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[15Dec2025 16:13:44.203] [Server thread/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 55 materials in 1.904903 ms
+[15Dec2025 16:13:44.204] [Server thread/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 9 material tags for 39 materials in 1.432121 ms
+[15Dec2025 16:13:44.209] [Server thread/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 412 stats loaded for 69 materials in 4.32692 ms
+[15Dec2025 16:13:44.215] [Server thread/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 229 traits loaded for 69 materials in 5.328087 ms
+[15Dec2025 16:13:44.222] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 154 dynamic modifiers and 4 modifier redirects in 7.342784 ms
+[15Dec2025 16:13:44.224] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 42 modifier tags for 141 modifiers in 2.337659 ms
+[15Dec2025 16:13:44.225] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 50 enchantment to modifier mappings in 0.481779 ms
+[15Dec2025 16:13:44.227] [Server thread/INFO] [tconstruct/]: Loaded 43 spilling fluids in 1.403247 ms
+[15Dec2025 16:13:44.227] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[15Dec2025 16:13:44.228] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[15Dec2025 16:13:44.229] [Server thread/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 25 dynamic modifiers in 0.575533 ms
+[15Dec2025 16:13:44.231] [Server thread/INFO] [Fossils Archeology/]: Loaded 733 server animations for 66 entities
+[15Dec2025 16:13:44.235] [Server thread/INFO] [Fossils Archeology/]: Loaded 1056 animation category entries for 66 entities
+[15Dec2025 16:13:44.236] [Server thread/INFO] [Fossils Archeology/]: Loaded data for 59 entities
+[15Dec2025 16:13:44.237] [Server thread/INFO] [Fossils Archeology/]: Loaded food values: (items: 51) (entities: 39, 39) (Tags: 8, 0)
+[15Dec2025 16:13:44.238] [Server thread/INFO] [Fossils Archeology/]: Loaded 12 variants
+[15Dec2025 16:13:44.242] [Server thread/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 38 tool definitions in 3.111743 ms
+[15Dec2025 16:13:44.243] [Server thread/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 1.320522 ms
+[15Dec2025 16:13:44.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: crafttweaker.reload.start
+[15Dec2025 16:13:44.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: crafttweaker.reload.complete
+[15Dec2025 16:15:18.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [caslu: Reloading!]
+[15Dec2025 16:15:18.986] [Server thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[15Dec2025 16:15:19.295] [Worker-ResourceReload-0/INFO] [Mantle/]: Loaded 20 loot table injectors injecting into 18 tables in 3.447129 ms
+[15Dec2025 16:15:19.613] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[1]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[15Dec2025 16:15:19.630] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[15Dec2025 16:15:19.634] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[15Dec2025 16:15:19.640] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe tconstruct:smeltery/alloys/molten_pewter as it's serializer returned null
+[15Dec2025 16:15:19.656] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[15Dec2025 16:15:19.662] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[15Dec2025 16:15:19.680] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[15Dec2025 16:15:19.696] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[15Dec2025 16:15:19.697] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[15Dec2025 16:15:19.699] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[15Dec2025 16:15:19.701] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
+[15Dec2025 16:15:19.701] [Server thread/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[15Dec2025 16:15:19.767] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3860 advancements
+[15Dec2025 16:15:19.769] [Server thread/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[15Dec2025 16:15:19.776] [Server thread/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 55 materials in 3.793105 ms
+[15Dec2025 16:15:19.778] [Server thread/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 9 material tags for 39 materials in 1.572002 ms
+[15Dec2025 16:15:19.783] [Server thread/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 412 stats loaded for 69 materials in 4.580142 ms
+[15Dec2025 16:15:19.794] [Server thread/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 229 traits loaded for 69 materials in 11.07255 ms
+[15Dec2025 16:15:19.803] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 154 dynamic modifiers and 4 modifier redirects in 8.064257 ms
+[15Dec2025 16:15:19.807] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 42 modifier tags for 141 modifiers in 4.36649 ms
+[15Dec2025 16:15:19.807] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 50 enchantment to modifier mappings in 0.378796 ms
+[15Dec2025 16:15:19.809] [Server thread/INFO] [tconstruct/]: Loaded 43 spilling fluids in 1.237848 ms
+[15Dec2025 16:15:19.810] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[15Dec2025 16:15:19.810] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[15Dec2025 16:15:19.811] [Server thread/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 25 dynamic modifiers in 0.688884 ms
+[15Dec2025 16:15:19.813] [Server thread/INFO] [Fossils Archeology/]: Loaded 733 server animations for 66 entities
+[15Dec2025 16:15:19.819] [Server thread/INFO] [Fossils Archeology/]: Loaded 1056 animation category entries for 66 entities
+[15Dec2025 16:15:19.820] [Server thread/INFO] [Fossils Archeology/]: Loaded data for 59 entities
+[15Dec2025 16:15:19.820] [Server thread/INFO] [Fossils Archeology/]: Loaded food values: (items: 51) (entities: 39, 39) (Tags: 8, 0)
+[15Dec2025 16:15:19.822] [Server thread/INFO] [Fossils Archeology/]: Loaded 12 variants
+[15Dec2025 16:15:19.827] [Server thread/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 38 tool definitions in 4.302023 ms
+[15Dec2025 16:15:19.828] [Server thread/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 1.114249 ms
+[15Dec2025 16:15:19.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: crafttweaker.reload.start
+[15Dec2025 16:15:19.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: crafttweaker.reload.complete
+[15Dec2025 16:16:30.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Reloading!
+[15Dec2025 16:16:30.825] [Server thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[15Dec2025 16:16:31.181] [Worker-ResourceReload-4/INFO] [Mantle/]: Loaded 20 loot table injectors injecting into 18 tables in 4.565484 ms
+[15Dec2025 16:16:31.321] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[1]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[15Dec2025 16:16:31.337] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[15Dec2025 16:16:31.341] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[15Dec2025 16:16:31.347] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe tconstruct:smeltery/alloys/molten_pewter as it's serializer returned null
+[15Dec2025 16:16:31.364] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[15Dec2025 16:16:31.372] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[15Dec2025 16:16:31.393] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[15Dec2025 16:16:31.413] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[15Dec2025 16:16:31.414] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[15Dec2025 16:16:31.417] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[15Dec2025 16:16:31.421] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
+[15Dec2025 16:16:31.421] [Server thread/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[15Dec2025 16:16:31.527] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3860 advancements
+[15Dec2025 16:16:31.531] [Server thread/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[15Dec2025 16:16:31.538] [Server thread/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 55 materials in 1.349126 ms
+[15Dec2025 16:16:31.541] [Server thread/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 9 material tags for 39 materials in 2.479732 ms
+[15Dec2025 16:16:31.547] [Server thread/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 412 stats loaded for 69 materials in 5.984672 ms
+[15Dec2025 16:16:31.555] [Server thread/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 229 traits loaded for 69 materials in 7.155966 ms
+[15Dec2025 16:16:31.566] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 154 dynamic modifiers and 4 modifier redirects in 9.363693 ms
+[15Dec2025 16:16:31.568] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 42 modifier tags for 141 modifiers in 2.443727 ms
+[15Dec2025 16:16:31.569] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 50 enchantment to modifier mappings in 0.795193 ms
+[15Dec2025 16:16:31.571] [Server thread/INFO] [tconstruct/]: Loaded 43 spilling fluids in 1.594754 ms
+[15Dec2025 16:16:31.573] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[15Dec2025 16:16:31.574] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[15Dec2025 16:16:31.575] [Server thread/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 25 dynamic modifiers in 0.577207 ms
+[15Dec2025 16:16:31.577] [Server thread/INFO] [Fossils Archeology/]: Loaded 733 server animations for 66 entities
+[15Dec2025 16:16:31.584] [Server thread/INFO] [Fossils Archeology/]: Loaded 1056 animation category entries for 66 entities
+[15Dec2025 16:16:31.585] [Server thread/INFO] [Fossils Archeology/]: Loaded data for 59 entities
+[15Dec2025 16:16:31.585] [Server thread/INFO] [Fossils Archeology/]: Loaded food values: (items: 51) (entities: 39, 39) (Tags: 8, 0)
+[15Dec2025 16:16:31.587] [Server thread/INFO] [Fossils Archeology/]: Loaded 12 variants
+[15Dec2025 16:16:31.592] [Server thread/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 38 tool definitions in 4.771268 ms
+[15Dec2025 16:16:31.593] [Server thread/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 1.145997 ms
+[15Dec2025 16:16:31.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: crafttweaker.reload.start
+[15Dec2025 16:16:31.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: crafttweaker.reload.complete
+[15Dec2025 16:18:17.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [caslu: Reloading!]
+[15Dec2025 16:18:17.970] [Server thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[15Dec2025 16:18:18.278] [Worker-ResourceReload-5/INFO] [Mantle/]: Loaded 20 loot table injectors injecting into 18 tables in 4.838514 ms
+[15Dec2025 16:18:18.414] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[1]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[15Dec2025 16:18:18.436] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[15Dec2025 16:18:18.440] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[15Dec2025 16:18:18.447] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe tconstruct:smeltery/alloys/molten_pewter as it's serializer returned null
+[15Dec2025 16:18:18.467] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[15Dec2025 16:18:18.477] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[15Dec2025 16:18:18.497] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[15Dec2025 16:18:18.517] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[15Dec2025 16:18:18.518] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[15Dec2025 16:18:18.521] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[15Dec2025 16:18:18.527] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
+[15Dec2025 16:18:18.530] [Server thread/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[15Dec2025 16:18:18.622] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3860 advancements
+[15Dec2025 16:18:18.625] [Server thread/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[15Dec2025 16:18:18.629] [Server thread/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 55 materials in 1.835954 ms
+[15Dec2025 16:18:18.630] [Server thread/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 9 material tags for 39 materials in 0.818677 ms
+[15Dec2025 16:18:18.637] [Server thread/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 412 stats loaded for 69 materials in 6.087757 ms
+[15Dec2025 16:18:18.644] [Server thread/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 229 traits loaded for 69 materials in 7.193596 ms
+[15Dec2025 16:18:18.652] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 154 dynamic modifiers and 4 modifier redirects in 7.642373 ms
+[15Dec2025 16:18:18.654] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 42 modifier tags for 141 modifiers in 2.101369 ms
+[15Dec2025 16:18:18.655] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 50 enchantment to modifier mappings in 0.447985 ms
+[15Dec2025 16:18:18.658] [Server thread/INFO] [tconstruct/]: Loaded 43 spilling fluids in 2.486961 ms
+[15Dec2025 16:18:18.659] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[15Dec2025 16:18:18.659] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[15Dec2025 16:18:18.660] [Server thread/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 25 dynamic modifiers in 0.625197 ms
+[15Dec2025 16:18:18.661] [Server thread/INFO] [Fossils Archeology/]: Loaded 733 server animations for 66 entities
+[15Dec2025 16:18:18.668] [Server thread/INFO] [Fossils Archeology/]: Loaded 1056 animation category entries for 66 entities
+[15Dec2025 16:18:18.669] [Server thread/INFO] [Fossils Archeology/]: Loaded data for 59 entities
+[15Dec2025 16:18:18.672] [Server thread/INFO] [Fossils Archeology/]: Loaded food values: (items: 51) (entities: 39, 39) (Tags: 8, 0)
+[15Dec2025 16:18:18.673] [Server thread/INFO] [Fossils Archeology/]: Loaded 12 variants
+[15Dec2025 16:18:18.677] [Server thread/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 38 tool definitions in 4.041047 ms
+[15Dec2025 16:18:18.679] [Server thread/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 0.989406 ms
+[15Dec2025 16:18:18.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: crafttweaker.reload.start
+[15Dec2025 16:18:18.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: crafttweaker.reload.complete
+[15Dec2025 16:19:18.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [caslu: Reloading!]
+[15Dec2025 16:19:18.888] [Server thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[15Dec2025 16:19:19.312] [Worker-ResourceReload-6/INFO] [Mantle/]: Loaded 20 loot table injectors injecting into 18 tables in 2.882205 ms
+[15Dec2025 16:19:19.374] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[1]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[15Dec2025 16:19:19.387] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[15Dec2025 16:19:19.389] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[15Dec2025 16:19:19.393] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe tconstruct:smeltery/alloys/molten_pewter as it's serializer returned null
+[15Dec2025 16:19:19.404] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[15Dec2025 16:19:19.409] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[15Dec2025 16:19:19.423] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[15Dec2025 16:19:19.437] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[15Dec2025 16:19:19.437] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[15Dec2025 16:19:19.439] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[15Dec2025 16:19:19.441] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
+[15Dec2025 16:19:19.441] [Server thread/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[15Dec2025 16:19:19.491] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3860 advancements
+[15Dec2025 16:19:19.493] [Server thread/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[15Dec2025 16:19:19.497] [Server thread/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 55 materials in 1.354617 ms
+[15Dec2025 16:19:19.498] [Server thread/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 9 material tags for 39 materials in 0.813046 ms
+[15Dec2025 16:19:19.502] [Server thread/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 412 stats loaded for 69 materials in 4.274662 ms
+[15Dec2025 16:19:19.507] [Server thread/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 229 traits loaded for 69 materials in 5.017928 ms
+[15Dec2025 16:19:19.515] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 154 dynamic modifiers and 4 modifier redirects in 7.231637 ms
+[15Dec2025 16:19:19.517] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 42 modifier tags for 141 modifiers in 2.043621 ms
+[15Dec2025 16:19:19.517] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 50 enchantment to modifier mappings in 0.58954 ms
+[15Dec2025 16:19:19.519] [Server thread/INFO] [tconstruct/]: Loaded 43 spilling fluids in 1.351531 ms
+[15Dec2025 16:19:19.520] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[15Dec2025 16:19:19.520] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[15Dec2025 16:19:19.521] [Server thread/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 25 dynamic modifiers in 0.626508 ms
+[15Dec2025 16:19:19.523] [Server thread/INFO] [Fossils Archeology/]: Loaded 733 server animations for 66 entities
+[15Dec2025 16:19:19.526] [Server thread/INFO] [Fossils Archeology/]: Loaded 1056 animation category entries for 66 entities
+[15Dec2025 16:19:19.527] [Server thread/INFO] [Fossils Archeology/]: Loaded data for 59 entities
+[15Dec2025 16:19:19.528] [Server thread/INFO] [Fossils Archeology/]: Loaded food values: (items: 51) (entities: 39, 39) (Tags: 8, 0)
+[15Dec2025 16:19:19.529] [Server thread/INFO] [Fossils Archeology/]: Loaded 12 variants
+[15Dec2025 16:19:19.533] [Server thread/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 38 tool definitions in 3.488115 ms
+[15Dec2025 16:19:19.534] [Server thread/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 0.765418 ms
+[15Dec2025 16:19:19.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: crafttweaker.reload.start
+[15Dec2025 16:19:19.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: crafttweaker.reload.complete
+[15Dec2025 16:24:43.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [caslu: Reloading!]
+[15Dec2025 16:24:43.804] [Server thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[15Dec2025 16:24:44.126] [Worker-ResourceReload-9/INFO] [Mantle/]: Loaded 20 loot table injectors injecting into 18 tables in 1.582571 ms
+[15Dec2025 16:24:44.216] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[1]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[15Dec2025 16:24:44.230] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[15Dec2025 16:24:44.232] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[15Dec2025 16:24:44.237] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe tconstruct:smeltery/alloys/molten_pewter as it's serializer returned null
+[15Dec2025 16:24:44.248] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[15Dec2025 16:24:44.254] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[15Dec2025 16:24:44.266] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[15Dec2025 16:24:44.280] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[15Dec2025 16:24:44.281] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[15Dec2025 16:24:44.283] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[15Dec2025 16:24:44.286] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
+[15Dec2025 16:24:44.287] [Server thread/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[15Dec2025 16:24:44.393] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3860 advancements
+[15Dec2025 16:24:44.395] [Server thread/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[15Dec2025 16:24:44.399] [Server thread/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 55 materials in 1.688939 ms
+[15Dec2025 16:24:44.400] [Server thread/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 9 material tags for 39 materials in 0.702791 ms
+[15Dec2025 16:24:44.403] [Server thread/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 412 stats loaded for 69 materials in 2.798408 ms
+[15Dec2025 16:24:44.407] [Server thread/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 229 traits loaded for 69 materials in 3.690413 ms
+[15Dec2025 16:24:44.413] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 154 dynamic modifiers and 4 modifier redirects in 6.297305 ms
+[15Dec2025 16:24:44.415] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 42 modifier tags for 141 modifiers in 1.767987 ms
+[15Dec2025 16:24:44.415] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 50 enchantment to modifier mappings in 0.351064 ms
+[15Dec2025 16:24:44.417] [Server thread/INFO] [tconstruct/]: Loaded 43 spilling fluids in 1.063894 ms
+[15Dec2025 16:24:44.417] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[15Dec2025 16:24:44.418] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[15Dec2025 16:24:44.418] [Server thread/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 25 dynamic modifiers in 0.410596 ms
+[15Dec2025 16:24:44.419] [Server thread/INFO] [Fossils Archeology/]: Loaded 733 server animations for 66 entities
+[15Dec2025 16:24:44.421] [Server thread/INFO] [Fossils Archeology/]: Loaded 1056 animation category entries for 66 entities
+[15Dec2025 16:24:44.422] [Server thread/INFO] [Fossils Archeology/]: Loaded data for 59 entities
+[15Dec2025 16:24:44.422] [Server thread/INFO] [Fossils Archeology/]: Loaded food values: (items: 51) (entities: 39, 39) (Tags: 8, 0)
+[15Dec2025 16:24:44.424] [Server thread/INFO] [Fossils Archeology/]: Loaded 12 variants
+[15Dec2025 16:24:44.427] [Server thread/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 38 tool definitions in 3.244201 ms
+[15Dec2025 16:24:44.428] [Server thread/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 1.127442 ms
+[15Dec2025 16:24:44.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: crafttweaker.reload.start
+[15Dec2025 16:24:44.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: crafttweaker.reload.complete
+[15Dec2025 16:27:49.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [caslu: Reloading!]
+[15Dec2025 16:27:49.554] [Server thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[15Dec2025 16:27:49.847] [Worker-ResourceReload-10/INFO] [Mantle/]: Loaded 20 loot table injectors injecting into 18 tables in 1.72137 ms
+[15Dec2025 16:27:50.029] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[1]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[15Dec2025 16:27:50.048] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[15Dec2025 16:27:50.052] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[15Dec2025 16:27:50.062] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe tconstruct:smeltery/alloys/molten_pewter as it's serializer returned null
+[15Dec2025 16:27:50.080] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[15Dec2025 16:27:50.089] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[15Dec2025 16:27:50.106] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[15Dec2025 16:27:50.128] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[15Dec2025 16:27:50.131] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[15Dec2025 16:27:50.134] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[15Dec2025 16:27:50.138] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
+[15Dec2025 16:27:50.139] [Server thread/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[15Dec2025 16:27:50.213] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3860 advancements
+[15Dec2025 16:27:50.215] [Server thread/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[15Dec2025 16:27:50.219] [Server thread/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 55 materials in 1.41035 ms
+[15Dec2025 16:27:50.220] [Server thread/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 9 material tags for 39 materials in 0.999224 ms
+[15Dec2025 16:27:50.224] [Server thread/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 412 stats loaded for 69 materials in 3.784718 ms
+[15Dec2025 16:27:50.230] [Server thread/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 229 traits loaded for 69 materials in 5.875638 ms
+[15Dec2025 16:27:50.241] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 154 dynamic modifiers and 4 modifier redirects in 10.385599 ms
+[15Dec2025 16:27:50.243] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 42 modifier tags for 141 modifiers in 2.275734 ms
+[15Dec2025 16:27:50.244] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 50 enchantment to modifier mappings in 0.585862 ms
+[15Dec2025 16:27:50.246] [Server thread/INFO] [tconstruct/]: Loaded 43 spilling fluids in 1.672679 ms
+[15Dec2025 16:27:50.247] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[15Dec2025 16:27:50.247] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[15Dec2025 16:27:50.248] [Server thread/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 25 dynamic modifiers in 0.394405 ms
+[15Dec2025 16:27:50.250] [Server thread/INFO] [Fossils Archeology/]: Loaded 733 server animations for 66 entities
+[15Dec2025 16:27:50.254] [Server thread/INFO] [Fossils Archeology/]: Loaded 1056 animation category entries for 66 entities
+[15Dec2025 16:27:50.255] [Server thread/INFO] [Fossils Archeology/]: Loaded data for 59 entities
+[15Dec2025 16:27:50.255] [Server thread/INFO] [Fossils Archeology/]: Loaded food values: (items: 51) (entities: 39, 39) (Tags: 8, 0)
+[15Dec2025 16:27:50.257] [Server thread/INFO] [Fossils Archeology/]: Loaded 12 variants
+[15Dec2025 16:27:50.261] [Server thread/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 38 tool definitions in 4.021239 ms
+[15Dec2025 16:27:50.263] [Server thread/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 1.390884 ms
+[15Dec2025 16:27:50.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: crafttweaker.reload.start
+[15Dec2025 16:27:50.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: crafttweaker.reload.complete
+[15Dec2025 16:32:19.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [caslu: Reloading!]
+[15Dec2025 16:32:19.781] [Server thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[15Dec2025 16:32:20.105] [Worker-ResourceReload-14/INFO] [Mantle/]: Loaded 20 loot table injectors injecting into 18 tables in 1.636342 ms
+[15Dec2025 16:32:20.171] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[1]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[15Dec2025 16:32:20.187] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[15Dec2025 16:32:20.192] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[15Dec2025 16:32:20.198] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe tconstruct:smeltery/alloys/molten_pewter as it's serializer returned null
+[15Dec2025 16:32:20.211] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[15Dec2025 16:32:20.216] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[15Dec2025 16:32:20.232] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[15Dec2025 16:32:20.243] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[15Dec2025 16:32:20.245] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[15Dec2025 16:32:20.247] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[15Dec2025 16:32:20.250] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
+[15Dec2025 16:32:20.251] [Server thread/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[15Dec2025 16:32:20.294] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3860 advancements
+[15Dec2025 16:32:20.296] [Server thread/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[15Dec2025 16:32:20.300] [Server thread/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 55 materials in 1.453881 ms
+[15Dec2025 16:32:20.301] [Server thread/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 9 material tags for 39 materials in 1.466745 ms
+[15Dec2025 16:32:20.305] [Server thread/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 412 stats loaded for 69 materials in 2.743226 ms
+[15Dec2025 16:32:20.310] [Server thread/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 229 traits loaded for 69 materials in 4.405476 ms
+[15Dec2025 16:32:20.318] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 154 dynamic modifiers and 4 modifier redirects in 6.310809 ms
+[15Dec2025 16:32:20.321] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 42 modifier tags for 141 modifiers in 3.337935 ms
+[15Dec2025 16:32:20.324] [Server thread/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 50 enchantment to modifier mappings in 2.23071 ms
+[15Dec2025 16:32:20.328] [Server thread/INFO] [tconstruct/]: Loaded 43 spilling fluids in 1.178077 ms
+[15Dec2025 16:32:20.329] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[15Dec2025 16:32:20.331] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[15Dec2025 16:32:20.332] [Server thread/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 25 dynamic modifiers in 0.280694 ms
+[15Dec2025 16:32:20.334] [Server thread/INFO] [Fossils Archeology/]: Loaded 733 server animations for 66 entities
+[15Dec2025 16:32:20.337] [Server thread/INFO] [Fossils Archeology/]: Loaded 1056 animation category entries for 66 entities
+[15Dec2025 16:32:20.339] [Server thread/INFO] [Fossils Archeology/]: Loaded data for 59 entities
+[15Dec2025 16:32:20.340] [Server thread/INFO] [Fossils Archeology/]: Loaded food values: (items: 51) (entities: 39, 39) (Tags: 8, 0)
+[15Dec2025 16:32:20.342] [Server thread/INFO] [Fossils Archeology/]: Loaded 12 variants
+[15Dec2025 16:32:20.347] [Server thread/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 38 tool definitions in 3.627184 ms
+[15Dec2025 16:32:20.350] [Server thread/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 1.219644 ms
+[15Dec2025 16:32:20.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: crafttweaker.reload.start
+[15Dec2025 16:32:20.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: crafttweaker.reload.complete

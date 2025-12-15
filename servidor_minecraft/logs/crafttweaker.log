@@ -1,0 +1,234 @@
+[16:04:39.435][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production server modded with platform Forge
+[16:04:39.447][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[16:04:39.479][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
+[16:04:39.479][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[16:04:40.092][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
+[16:04:40.093][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.59'
+[16:04:45.830][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[16:04:46.138][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:04:46.166][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:04:46.233][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[16:04:51.361][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[16:04:51.387][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:04:51.407][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:04:51.423][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[16:04:51.987][INFO][CraftTweaker]: crafttweaker.reload.start
+[16:04:51.991][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[16:04:52.025][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:04:52.439][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:04:52.450][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[16:04:52.451][INFO][CraftTweaker]: crafttweaker.reload.complete
+[16:06:21.950][INFO][CraftTweaker-Commands]: Item: <item:securitycraft:universal_block_reinforcer_lvl1>
+[16:08:34.459][INFO][CraftTweaker-Commands]: Item: <item:minecraft:diamond> * 64
+[16:08:34.460][INFO][CraftTweaker-Commands]: Item Tag Entries
+[16:08:34.461][INFO][CraftTweaker-Commands]:     -  <tag:items:twilightforest:portal/activator>
+[16:08:34.461][INFO][CraftTweaker-Commands]:     -  <tag:items:balm:gems>
+[16:08:34.461][INFO][CraftTweaker-Commands]:     -  <tag:items:minecraft:trim_materials>
+[16:08:34.461][INFO][CraftTweaker-Commands]:     -  <tag:items:forge:gems/diamond>
+[16:08:34.461][INFO][CraftTweaker-Commands]:     -  <tag:items:borninconfiguration:block_breakers>
+[16:08:34.461][INFO][CraftTweaker-Commands]:     -  <tag:items:balm:diamonds>
+[16:08:34.461][INFO][CraftTweaker-Commands]:     -  <tag:items:minecraft:beacon_payment_items>
+[16:08:34.461][INFO][CraftTweaker-Commands]:     -  <tag:items:forge:gems>
+[16:08:53.370][INFO][CraftTweaker-Commands]: Item: <item:minecraft:redstone> * 64
+[16:08:53.371][INFO][CraftTweaker-Commands]: Block: <block:minecraft:redstone_wire>
+[16:08:53.371][INFO][CraftTweaker-Commands]: BlockState: <blockstate:minecraft:redstone_wire:east=none,south=none,north=none,west=none,power=0>
+[16:08:53.371][INFO][CraftTweaker-Commands]: Item Tag Entries
+[16:08:53.371][INFO][CraftTweaker-Commands]:     -  <tag:items:minecraft:trim_materials>
+[16:08:53.371][INFO][CraftTweaker-Commands]:     -  <tag:items:alexsmobs:platypus_foodstuffs>
+[16:08:53.372][INFO][CraftTweaker-Commands]:     -  <tag:items:alexsmobs:platypus_chargeables>
+[16:08:53.372][INFO][CraftTweaker-Commands]:     -  <tag:items:forge:dusts>
+[16:08:53.372][INFO][CraftTweaker-Commands]:     -  <tag:items:forge:dusts/redstone>
+[16:08:53.372][INFO][CraftTweaker-Commands]: Block Tag Entries
+[16:08:53.372][INFO][CraftTweaker-Commands]:     -  <tag:blocks:watching:air_blocks>
+[16:08:53.372][INFO][CraftTweaker-Commands]:     -  <tag:blocks:watching:glass_sight_blocks>
+[16:08:53.372][INFO][CraftTweaker-Commands]:     -  <tag:blocks:tconstruct:mineable/scythe>
+[16:08:53.372][INFO][CraftTweaker-Commands]:     -  <tag:blocks:tconstruct:platform_connections>
+[16:08:53.372][INFO][CraftTweaker-Commands]:     -  <tag:blocks:watching:sight_blocks>
+[16:08:53.372][INFO][CraftTweaker-Commands]:     -  <tag:blocks:watching:spawning_raycast/no_col_blocks>
+[16:08:53.372][INFO][CraftTweaker-Commands]:     -  <tag:blocks:watching:torch_nonspawn_blocks>
+[16:08:53.372][INFO][CraftTweaker-Commands]:     -  <tag:blocks:forge:mineable/shears>
+[16:09:20.610][INFO][CraftTweaker-Commands]: Item: <item:minecraft:glass>
+[16:09:20.611][INFO][CraftTweaker-Commands]: Block: <block:minecraft:glass>
+[16:09:20.611][INFO][CraftTweaker-Commands]: BlockState: <blockstate:minecraft:glass>
+[16:09:20.611][INFO][CraftTweaker-Commands]: Item Tag Entries
+[16:09:20.611][INFO][CraftTweaker-Commands]:     -  <tag:items:forge:glass>
+[16:09:20.611][INFO][CraftTweaker-Commands]:     -  <tag:items:forge:glass/colorless>
+[16:09:20.611][INFO][CraftTweaker-Commands]:     -  <tag:items:forge:glass/silica>
+[16:09:20.611][INFO][CraftTweaker-Commands]: Block Tag Entries
+[16:09:20.611][INFO][CraftTweaker-Commands]:     -  <tag:blocks:watching:glass_sight_blocks>
+[16:09:20.611][INFO][CraftTweaker-Commands]:     -  <tag:blocks:forge:glass/colorless>
+[16:09:20.611][INFO][CraftTweaker-Commands]:     -  <tag:blocks:minecraft:impermeable>
+[16:09:20.611][INFO][CraftTweaker-Commands]:     -  <tag:blocks:forge:glass/silica>
+[16:09:20.611][INFO][CraftTweaker-Commands]:     -  <tag:blocks:watching:spotted/glass>
+[16:09:20.611][INFO][CraftTweaker-Commands]:     -  <tag:blocks:forge:glass>
+[16:09:41.358][INFO][CraftTweaker-Commands]: Item: <item:minecraft:stick>
+[16:09:41.359][INFO][CraftTweaker-Commands]: Item Tag Entries
+[16:09:41.359][INFO][CraftTweaker-Commands]:     -  <tag:items:twilightforest:uncrafting_ignores_cost>
+[16:09:41.359][INFO][CraftTweaker-Commands]:     -  <tag:items:forge:rods/wooden>
+[16:09:41.359][INFO][CraftTweaker-Commands]:     -  <tag:items:balm:wooden_rods>
+[16:09:41.359][INFO][CraftTweaker-Commands]:     -  <tag:items:forge:rods>
+[16:09:55.700][INFO][CraftTweaker-Commands]: Item: <item:securitycraft:laser_block>
+[16:09:55.700][INFO][CraftTweaker-Commands]: Block: <block:securitycraft:laser_block>
+[16:09:55.700][INFO][CraftTweaker-Commands]: BlockState: <blockstate:securitycraft:laser_block:waterlogged=false,powered=false>
+[16:09:55.700][INFO][CraftTweaker-Commands]: Block Tag Entries
+[16:09:55.700][INFO][CraftTweaker-Commands]:     -  <tag:blocks:minecraft:wither_immune>
+[16:09:55.701][INFO][CraftTweaker-Commands]:     -  <tag:blocks:minecraft:dragon_immune>
+[16:09:55.701][INFO][CraftTweaker-Commands]:     -  <tag:blocks:minecraft:mineable/pickaxe>
+[16:09:55.701][INFO][CraftTweaker-Commands]:     -  <tag:blocks:tconstruct:mineable/pickadze>
+[16:13:37.306][INFO][CraftTweaker-Commands]: CraftTweaker reload is now a part of the vanilla /reload command!
+[16:13:43.952][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[16:13:43.952][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[16:13:43.971][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:13:43.975][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:13:43.983][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[16:13:44.247][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[16:13:44.248][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[16:13:44.271][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:13:44.411][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:13:44.416][INFO][CraftTweaker-ZenCode]: Loading file 'recipes.zs' with priority 0
+[16:13:44.422][ERROR][CraftTweaker-ZenCode]: recipes.zs:1:0: recipes.zs:1:0: No such member: removeRecipe
+[16:13:44.422][ERROR][CraftTweaker-ZenCode]: recipes.zs:7:8: recipes.zs:7:8: Could not combine null with IItemStack
+[16:13:44.423][ERROR][CraftTweaker]: Scripts are invalid!
+[16:13:44.423][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[16:13:44.424][INFO][CraftTweaker]: This reload was made possible by Quaternary and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[16:14:52.777][INFO][CraftTweaker-Commands]: CraftTweaker reload is now a part of the vanilla /reload command!
+[16:15:19.557][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[16:15:19.558][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[16:15:19.582][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:15:19.586][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:15:19.598][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[16:15:19.834][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[16:15:19.834][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[16:15:19.853][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:15:19.946][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:15:19.947][INFO][CraftTweaker-ZenCode]: Loading file 'recipes.zs' with priority 0
+[16:15:19.949][ERROR][CraftTweaker-ZenCode]: recipes.zs:5:0: recipes.zs:5:0: No such member: addShaped
+[16:15:19.949][ERROR][CraftTweaker]: Scripts are invalid!
+[16:15:19.949][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[16:15:19.949][INFO][CraftTweaker]: This reload was made possible by Quaternary and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[16:16:31.273][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[16:16:31.273][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[16:16:31.291][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:16:31.295][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:16:31.305][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[16:16:31.598][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[16:16:31.598][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[16:16:31.614][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:16:31.727][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:16:31.727][INFO][CraftTweaker-ZenCode]: Loading file 'recipes.zs' with priority 0
+[16:16:31.729][ERROR][CraftTweaker-ZenCode]: recipes.zs:5:0: recipes.zs:5:0: No such member: addShaped
+[16:16:31.729][ERROR][CraftTweaker]: Scripts are invalid!
+[16:16:31.729][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[16:16:31.730][INFO][CraftTweaker]: This reload was made possible by NerdyWhiteGuy and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[16:18:18.357][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[16:18:18.357][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[16:18:18.371][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:18:18.374][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:18:18.385][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[16:18:18.684][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[16:18:18.684][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[16:18:18.699][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:18:18.805][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:18:18.806][INFO][CraftTweaker-ZenCode]: Loading file 'recipes.zs' with priority 0
+[16:18:18.810][ERROR][CraftTweaker-ZenCode]: recipes.zs:2:0: recipes.zs:2:0: No such member: removeByOutput
+[16:18:18.811][ERROR][CraftTweaker]: Scripts are invalid!
+[16:18:18.811][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[16:18:18.812][INFO][CraftTweaker]: This reload was made possible by Zuniroa and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[16:19:19.339][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[16:19:19.339][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[16:19:19.349][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:19:19.351][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:19:19.357][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[16:19:19.537][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[16:19:19.537][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[16:19:19.552][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:19:19.618][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:19:19.618][INFO][CraftTweaker-ZenCode]: Loading file 'recipes.zs' with priority 0
+[16:19:19.633][INFO][CraftTweaker]: Removing all recipes that output <item:securitycraft:universal_block_reinforcer_lvl1>
+[16:19:19.648][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[16:19:19.651][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:universal_block_reinforcer_lvl1_gold_block' that outputs: '<item:securitycraft:universal_block_reinforcer_lvl1>'
+[16:19:19.651][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[16:19:19.651][INFO][CraftTweaker]: This reload was made possible by Lucas and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[16:24:44.162][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[16:24:44.162][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[16:24:44.176][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:24:44.179][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:24:44.193][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[16:24:44.432][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[16:24:44.432][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[16:24:44.447][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:24:44.514][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:24:44.514][INFO][CraftTweaker-ZenCode]: Loading file 'recipes.zs' with priority 0
+[16:24:44.530][INFO][CraftTweaker]: Removing all recipes that output <item:securitycraft:universal_block_reinforcer_lvl1>
+[16:24:44.537][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[16:24:44.537][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:universal_block_reinforcer_lvl1_gold_block' that outputs: '<item:securitycraft:universal_block_reinforcer_lvl1>'
+[16:24:44.538][INFO][CraftTweaker]: Removing all recipes that output <item:waystones:warp_stone>
+[16:24:44.541][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[16:24:44.542][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:warp_stone_gold_ender' that outputs: '<item:waystones:warp_stone>'
+[16:24:44.542][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[16:24:44.542][INFO][CraftTweaker]: This reload was made possible by Jellycraft and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[16:27:49.945][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[16:27:49.945][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[16:27:49.961][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:27:49.968][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:27:49.986][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[16:27:50.267][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[16:27:50.268][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[16:27:50.283][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:27:50.374][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:27:50.374][INFO][CraftTweaker-ZenCode]: Loading file 'recipes.zs' with priority 0
+[16:27:50.386][INFO][CraftTweaker]: Removing all recipes that output <item:securitycraft:universal_block_reinforcer_lvl1>
+[16:27:50.391][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[16:27:50.391][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:universal_block_reinforcer_lvl1_gold_block' that outputs: '<item:securitycraft:universal_block_reinforcer_lvl1>'
+[16:27:50.392][INFO][CraftTweaker]: Removing all recipes that output <item:waystones:warp_stone>
+[16:27:50.395][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[16:27:50.396][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:warp_stone_gold_pearl' that outputs: '<item:waystones:warp_stone>'
+[16:27:50.396][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[16:27:50.396][INFO][CraftTweaker]: This reload was made possible by Peregrinus11 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[16:28:07.362][INFO][CraftTweaker-Commands]: Item: <item:securitycraft:universal_block_reinforcer_lvl2>
+[16:30:05.123][INFO][CraftTweaker-Commands]: Item: <item:securitycraft:reinforced_diamond_block>
+[16:30:05.124][INFO][CraftTweaker-Commands]: Block: <block:securitycraft:reinforced_diamond_block>
+[16:30:05.124][INFO][CraftTweaker-Commands]: BlockState: <blockstate:securitycraft:reinforced_diamond_block>
+[16:30:05.124][INFO][CraftTweaker-Commands]: Block Tag Entries
+[16:30:05.124][INFO][CraftTweaker-Commands]:     -  <tag:blocks:minecraft:beacon_base_blocks>
+[16:30:05.124][INFO][CraftTweaker-Commands]:     -  <tag:blocks:tconstruct:mineable/pickadze>
+[16:30:05.124][INFO][CraftTweaker-Commands]:     -  <tag:blocks:minecraft:dragon_immune>
+[16:30:05.124][INFO][CraftTweaker-Commands]:     -  <tag:blocks:minecraft:mineable/pickaxe>
+[16:30:05.124][INFO][CraftTweaker-Commands]:     -  <tag:blocks:minecraft:needs_iron_tool>
+[16:30:05.124][INFO][CraftTweaker-Commands]:     -  <tag:blocks:minecraft:wither_immune>
+[16:30:26.830][INFO][CraftTweaker-Commands]: Item: <item:securitycraft:reinforced_black_stained_glass>
+[16:30:26.830][INFO][CraftTweaker-Commands]: Block: <block:securitycraft:reinforced_black_stained_glass>
+[16:30:26.830][INFO][CraftTweaker-Commands]: BlockState: <blockstate:securitycraft:reinforced_black_stained_glass>
+[16:30:26.830][INFO][CraftTweaker-Commands]: Block Tag Entries
+[16:30:26.831][INFO][CraftTweaker-Commands]:     -  <tag:blocks:minecraft:impermeable>
+[16:30:26.831][INFO][CraftTweaker-Commands]:     -  <tag:blocks:minecraft:dragon_immune>
+[16:30:26.831][INFO][CraftTweaker-Commands]:     -  <tag:blocks:minecraft:wither_immune>
+[16:30:57.869][INFO][CraftTweaker-Commands]: Item: <item:securitycraft:laser_block>
+[16:30:57.869][INFO][CraftTweaker-Commands]: Block: <block:securitycraft:laser_block>
+[16:30:57.869][INFO][CraftTweaker-Commands]: BlockState: <blockstate:securitycraft:laser_block:waterlogged=false,powered=false>
+[16:30:57.869][INFO][CraftTweaker-Commands]: Block Tag Entries
+[16:30:57.869][INFO][CraftTweaker-Commands]:     -  <tag:blocks:minecraft:wither_immune>
+[16:30:57.870][INFO][CraftTweaker-Commands]:     -  <tag:blocks:minecraft:dragon_immune>
+[16:30:57.870][INFO][CraftTweaker-Commands]:     -  <tag:blocks:minecraft:mineable/pickaxe>
+[16:30:57.870][INFO][CraftTweaker-Commands]:     -  <tag:blocks:tconstruct:mineable/pickadze>
+[16:32:20.128][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[16:32:20.128][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[16:32:20.142][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:32:20.145][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:32:20.153][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[16:32:20.355][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[16:32:20.355][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[16:32:20.366][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:32:20.446][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:32:20.446][INFO][CraftTweaker-ZenCode]: Loading file 'recipes.zs' with priority 0
+[16:32:20.457][INFO][CraftTweaker]: Removing all recipes that output <item:securitycraft:universal_block_reinforcer_lvl1>
+[16:32:20.460][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[16:32:20.461][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:universal_block_reinforcer_lvl1_gold_block' that outputs: '<item:securitycraft:universal_block_reinforcer_lvl1>'
+[16:32:20.461][INFO][CraftTweaker]: Removing all recipes that output <item:waystones:warp_stone>
+[16:32:20.463][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[16:32:20.463][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:warp_stone_gold_pearl' that outputs: '<item:waystones:warp_stone>'
+[16:32:20.463][INFO][CraftTweaker]: Removing all recipes that output <item:securitycraft:universal_block_reinforcer_lvl2>
+[16:32:20.465][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[16:32:20.465][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:universal_block_reinforcer_lvl2_custom' that outputs: '<item:securitycraft:universal_block_reinforcer_lvl2>'
+[16:32:20.465][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[16:32:20.466][INFO][CraftTweaker]: This reload was made possible by Peregrinus11 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
