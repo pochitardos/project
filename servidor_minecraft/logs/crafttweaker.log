@@ -1,0 +1,31 @@
+[06:14:40.193][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production server modded with platform Forge
+[06:14:40.214][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[06:14:40.264][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
+[06:14:40.265][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[06:14:41.244][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
+[06:14:41.248][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.59'
+[06:14:47.182][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[06:14:47.535][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[06:14:47.563][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[06:14:47.642][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[06:14:53.016][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[06:14:53.046][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[06:14:53.066][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[06:14:53.081][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[06:14:53.701][INFO][CraftTweaker]: crafttweaker.reload.start
+[06:14:53.705][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[06:14:53.731][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[06:14:54.224][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[06:14:54.230][INFO][CraftTweaker-ZenCode]: Loading file 'recipes.zs' with priority 0
+[06:14:54.278][INFO][CraftTweaker]: Removing all recipes that output <item:securitycraft:universal_block_reinforcer_lvl1>
+[06:14:54.295][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[06:14:54.301][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:universal_block_reinforcer_lvl1_gold_block' that outputs: '<item:securitycraft:universal_block_reinforcer_lvl1>'
+[06:14:54.301][INFO][CraftTweaker]: Removing all recipes that output <item:waystones:warp_stone>
+[06:14:54.308][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[06:14:54.308][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:warp_stone_gold_pearl' that outputs: '<item:waystones:warp_stone>'
+[06:14:54.308][INFO][CraftTweaker]: Removing all recipes that output <item:securitycraft:universal_block_reinforcer_lvl2>
+[06:14:54.312][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[06:14:54.312][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:universal_block_reinforcer_lvl2_custom' that outputs: '<item:securitycraft:universal_block_reinforcer_lvl2>'
+[06:14:54.313][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[06:14:54.315][INFO][CraftTweaker]: crafttweaker.reload.complete
+[06:14:54.315][INFO][CraftTweaker]: This reload was made possible by Lucas and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
